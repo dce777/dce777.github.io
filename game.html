@@ -1,0 +1,87 @@
+<html>
+  <head>
+   </head>
+  
+  <body>
+    div class="tablecontent">
+
+<h1>Flash Pacman</h1>
+<div class="desc">
+<b>Use the arrow buttons or keys to move pacman, eat the dots and avoid the ghosts. See your highest score on the pacman high score display. Updated with HTML5.</b>
+</div>
+
+<div class="pacwrap">
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/buzz.min.js"></script>
+<script src="js/pacman-game.min.js"></script>
+
+<div id="sound"></div>
+
+<div id="help">
+<div class="h2">Help</div>
+<table align="center" border="0" cellPadding="2" cellSpacing="0">
+<tbody>
+<tr><td>Arrow Left : </td><td>Move Left</td></tr>
+<tr><td>Arrow Right : </td><td>Move Right</td></tr>
+<tr><td>Arrow Down : </td><td>Move Down</td></tr>
+<tr><td>Arrow Up : </td><td>Move Up</td></tr>
+<tr><td>P : </td><td>PAUSE</td></tr>
+</tbody>
+</table>
+</div>
+
+<div id="home">
+<div class="pactitle">pac-man</div>
+<canvas id="canvas-home-title-pacman"></canvas>
+<div id="presentation">
+<div id="presentation-titles">character &nbsp;/&nbsp; nickname</div>
+<canvas id="canvas-presentation-blinky"></canvas><div id="presentation-character-blinky">- shadow</div><div id="presentation-name-blinky">"blinky"</div>
+<canvas id="canvas-presentation-pinky"></canvas><div id="presentation-character-pinky">- speedy</div><div id="presentation-name-pinky">"pinky"</div>
+<canvas id="canvas-presentation-inky"></canvas><div id="presentation-character-inky">- bashful</div><div id="presentation-name-inky">"inky"</div>
+<canvas id="canvas-presentation-clyde"></canvas><div id="presentation-character-clyde">- pokey</div><div id="presentation-name-clyde">"clyde"</div>
+</div>
+<canvas id="trailer"></canvas>
+<div class="help-button">- help -</div>
+<a class="tpw" target="_top" href="https://www.thepcmanwebsite.com">The PCman Website</a>
+<a class="sound" href="javascript:void(0);" data-sound="on"><img src="img/sound-on.png" alt="" border="0"></a>
+</div>
+
+<div id="panel">
+<div class="pactitle">pac-man</div>
+<a class="tpw" target="_top" href="https://www.thepcmanwebsite.com">The PCman Website</a>
+<canvas id="canvas-panel-title-pacman"></canvas>
+<div id="score"><div class="h2">1UP</div><span>00</span></div>
+<div id="highscore"><div class="h2">High Score</div><span>00</span></div>
+<div id="board">
+<canvas id="canvas-board"></canvas>
+<canvas id="canvas-paths"></canvas>
+<canvas id="canvas-bubbles"></canvas>
+<canvas id="canvas-fruits"></canvas>
+<canvas id="canvas-pacman"></canvas>
+<canvas id="canvas-ghost-blinky"></canvas>
+<canvas id="canvas-ghost-pinky"></canvas>
+<canvas id="canvas-ghost-inky"></canvas>
+<canvas id="canvas-ghost-clyde"></canvas>
+<div id="control-up-big"></div>
+<div id="control-down-big"></div>
+<div id="control-left-big"></div>
+<div id="control-right-big"></div>
+</div>
+<div id="control">
+<div id="control-up"></div>
+<div id="control-up-second"></div>
+<div id="control-down"></div> 
+<div id="control-down-second"></div>
+<div id="control-left"></div>
+<div id="control-right"></div>
+</div>
+<canvas id="canvas-lifes"></canvas>
+<canvas id="canvas-level-fruits"></canvas>
+<div id="message"></div>
+<div class="help-button">- help -</div>
+<a class="sound" href="javascript:void(0);" data-sound="on"><img src="img/sound-on.png" alt="" border="0"></a>
+</div>
+</div>
+  </body>
+  
+</html>
